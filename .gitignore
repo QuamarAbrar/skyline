@@ -1,0 +1,41 @@
+# Node / JS
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.production
+
+# Build outputs
+dist/
+build/
+out/
+
+# Logs
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+
+# Python (if applicable)
+__pycache__/
+*.pyc
+.venv/
+
+# Temporary files
+tmp/
+temp/
+
+# Data files (keep only small samples)
+*.csv
+!data/samples/*.csv
